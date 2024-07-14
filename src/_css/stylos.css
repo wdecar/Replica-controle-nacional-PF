@@ -1,0 +1,38 @@
+input{
+    background-color: burlywood;
+    color:black; /* Definindo a cor do texto para preto */
+
+        
+}
+h1{
+    background: burlywood;
+    text-align:center
+}
+input { 
+    color: red;
+}
+
+        /* Estilo para a imagem */
+        body {
+        background-image: url("01policia-federal.jpg");
+        background-size: cover; /* Para cobrir toda a área do body */
+        background-position: center; /* Para centralizar a imagem */
+        }
+        * Estilo para a faixa branca */
+    #pais {
+        background-color: white; /* Cor de fundo branca */
+        padding: 20px; /* Espaçamento interno para as respostas */
+        border-radius: 5px; /* Borda arredondada */
+        margin-top: 20px; /* Espaçamento superior */
+    }
+            /* Estilo para preencher o espaço à direita da imagem */
+            body::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: calc(50vw - 450px); /* Largura do espaço à direita da imagem */
+        background-color: BurlyWood; /* Cor de fundo para preencher o espaço */
+    }
+
